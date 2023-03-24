@@ -4,7 +4,7 @@
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>Portfolio</b></h3>
+  <h3><b>Portfolio_Setup_Mobile_First</b></h3>
 
 </div>
 
@@ -13,7 +13,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Portfolio ](#-portfolio-)
+- [📖 Portfolio_Setup_Mobile_First ](#-Portfolio_Setup_Mobile_First-)
 	- [🛠 Built With ](#-built-with-)
 		- [Tech Stack ](#tech-stack-)
 		- [Key Features ](#key-features-)
@@ -35,9 +35,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Portfolio_Setup_Mobile_First <a name="about-project"></a>
 
-**Portfolio** is a project which will represent all i will do as software web developer but this is the first version in mobile
+**Portfolio_Setup_Mobile_First** is a project which will represent all i will do as software web developer but this is the first version in mobile
 
 ## 🛠 Built With <a name="built-with"></a>
 
