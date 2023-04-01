@@ -284,10 +284,12 @@ ul li {
   top: 55px;
   right: 22px;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #1c1a19;
   color: white;
 }
+
 .second {
   position: relative;
   bottom: 200px;
@@ -351,11 +353,13 @@ ul li {
   border: none;
   color: white;
 }
-.about button:hover{
+
+.about .button:hover {
   background-color: #1c1a19;
   color: white;
   cursor: pointer;
 }
+
 .linep {
   background-color: wheat;
   width: 250px;
