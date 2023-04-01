@@ -305,6 +305,9 @@ ul li {
   width: 320px;
   height: 100%;
   margin-top: 40px;
+  background-image: url('./images/illustration-about-me-mobile.png');
+  background-repeat: no-repeat;
+  background-position: 150px 340px;
 }
 
 .about {
@@ -316,10 +319,6 @@ ul li {
   width: 250px;
   height: 100vh;
   gap: 10px;
-  background-color: #1c1a19;
-  background-image: url('./images/illustration-about-me-mobile.png');
-  background-repeat: no-repeat;
-  background-position: 150px 330px;
 }
 
 .about h1 {
@@ -365,7 +364,7 @@ ul li {
   width: 250px;
   height: 1.5px;
   position: relative;
-  top: 30px;
+  top: 40px;
   left: 20px;
 }
 
