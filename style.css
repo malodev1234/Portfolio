@@ -89,9 +89,9 @@ h4 {
   align-items: center;
   align-content: center;
   justify-items: center;
-  position: relative;
-  right: 63px;
-  bottom: 80px;
+  position: absolute;
+  bottom: -470px;
+  right: 150px;
 }
 
 ul li {
@@ -307,7 +307,7 @@ ul li {
   margin-top: 40px;
   background-image: url('./images/illustration-about-me-mobile.png');
   background-repeat: no-repeat;
-  background-position: 150px 340px;
+  background-position: 150px 300px;
 }
 
 .about {
