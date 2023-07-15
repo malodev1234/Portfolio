@@ -11,11 +11,11 @@
   background-color: #3c3a39;
   max-width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
   justify-items: center;
   gap: 180px;
-  height: 17vh;
+  height: 10vh;
 }
 
 .Title_logo {
@@ -31,7 +31,7 @@
   background-color: #1c1a19;
   background-image: url('./images/Illustration.png');
   background-repeat: no-repeat;
-  background-position: 200px 170px;
+  background-position: 200px 220px;
 }
 
 .main_container,
@@ -71,27 +71,6 @@ h4 {
   font-weight: 400;
   color: #ebe6e6;
   opacity: 0.8;
-}
-
-.icons-container {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.icons-containers {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  position: absolute;
-  bottom: -470px;
-  right: 150px;
 }
 
 ul li {
@@ -179,7 +158,9 @@ ul li {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #091e42;
+  color: #091e42;display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .butons_container {
@@ -187,6 +168,8 @@ ul li {
   flex-direction: row;
   justify-content: center;
   gap: 10px;
+  z-index: inherit;
+  
 }
 
 .butons_container button {
@@ -199,7 +182,14 @@ ul li {
   left: -17px;
   background-color: aliceblue;
 }
-
+.header_title h2 {
+  position: relative;
+  bottom: 55px;
+}
+.header_title .line {
+  position: relative;
+  bottom: 55px;
+}
 .recent_work_container .project_btn {
   text-align: center;
   display: flex;
@@ -215,6 +205,7 @@ ul li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   color: #fff;
+  z-index:inherit ;
 }
 
 .container {
@@ -223,6 +214,7 @@ ul li {
   grid-template-rows: repeat(6, 1fr);
   margin-top: 20px;
   overflow: hidden;
+  justify-items: center;
 }
 
 .box {
@@ -233,7 +225,7 @@ ul li {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .box h4 {
@@ -302,12 +294,13 @@ ul li {
   justify-items: center;
   align-items: flex-start;
   background-color: #1c1a19;
-  width: 320px;
+  width: 100%;
   height: 100%;
-  margin-top: 40px;
   background-image: url('./images/illustration-about-me-mobile.png');
   background-repeat: no-repeat;
   background-position: 150px 300px;
+  position: relative;
+  bottom: 270px;
 }
 
 .about {
@@ -339,6 +332,7 @@ ul li {
   font-weight: 400;
   font-size: 16px;
   color: #f4f5f7;
+  margin-right: 20px;
   position: relative;
   left: 20px;
 }
@@ -378,9 +372,13 @@ ul li {
   align-content: center;
   text-align: center;
   color: white;
+  padding: 30px;
+  margin: 20px;
+  position: relative;
+  top: 50px;
 }
 
-ul {
+.icons-containers ul {
   list-style-type: none;
   position: relative;
   top: 40px;
@@ -432,7 +430,8 @@ ul .ppp {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  position: relative;
+  bottom: 230px;
 }
 
 .footer_container p {
@@ -448,8 +447,7 @@ ul .ppp {
   flex: none;
   order: 0;
   flex-grow: 0;
-  position: relative;
-  right: 18px;
+  
 }
 
 .flex_container {
@@ -470,6 +468,18 @@ textarea {
   margin: 10px;
   padding-bottom: 15px;
 }
+.icons-containers {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  position: relative;
+  right: 113px;
+  bottom: 60px;
+},
 
 .flex_container textarea {
   font-style: italic;
@@ -494,7 +504,9 @@ textarea {
 hr {
   color: #dbd8d7;
   width: 90%;
-  margin-top: 10px;
+  position: relative;
+  bottom: 100px;
+  text-align: center;
 }
 
 .icons-list {
@@ -503,8 +515,57 @@ hr {
   justify-content: center;
   align-items: center;
   align-content: center;
+  position: relative;
+  bottom: 200px;
 }
 
 .icons-list img {
   color: #505f79;
+}
+@media only screen and (max-width: 375px) {
+  .icons-containers {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  position: relative;
+  right: 90px;
+  bottom: 60px;
+},
+  .main_container {
+  background-image: url('./images/Illustration.png');
+  background-repeat: no-repeat;
+  background-position: 200px 170px!imp;
+},
+.about_container {
+  
+  background-position: 450px 300px;
+  position: relative;
+  bottom: 270px;
+}
+}
+@media only screen and (width: 320px) {
+  .icons-containers {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  position: relative;
+  right: 50px;
+  bottom: 60px;
+},
+  .main_container {
+  width: 100%;
+  height: 100%;
+  background-color: #1c1a19;
+  background-image: url('./images/Illustration.png');
+  background-repeat: no-repeat;
+  background-position: 200px 170px;
+}
 }
