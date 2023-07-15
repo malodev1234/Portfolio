@@ -11,7 +11,7 @@
   background-color: #3c3a39;
   max-width: 100%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   justify-items: center;
   gap: 180px;
@@ -217,7 +217,6 @@ ul li {
   grid-template-rows: repeat(6, 1fr);
   margin-top: 20px;
   overflow: hidden;
-  justify-items: center;
 }
 
 .box {
@@ -228,8 +227,7 @@ ul li {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 
 .box h4 {
@@ -330,7 +328,7 @@ ul li {
 }
 
 .about p {
-  width: 100%;
+  width: 260px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -481,10 +479,9 @@ textarea {
   align-content: center;
   justify-items: center;
   position: relative;
-  right: 113px;
+  right: 90px;
   bottom: 60px;
 }
-
 .flex_container textarea {
   font-style: italic;
 }
@@ -540,40 +537,32 @@ hr {
     right: 90px;
     bottom: 60px;
   }
-
   .main_container {
     background-image: url('./images/Illustration.png');
     background-repeat: no-repeat;
-    background-position: 200px 170px;
+    background-position: 0 170px 
   }
 
-  .about_container {
-    background-position: 450px 300px;
-    position: relative;
-    bottom: 270px;
-  }
-}
-
-@media only screen and (width: 320px) {
-  .icons-containers {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    position: relative;
-    right: 50px;
-    bottom: 60px;
-  }
-
-  .main_container {
-    width: 100%;
-    height: 100%;
-    background-color: #1c1a19;
-    background-image: url('./images/Illustration.png');
-    background-repeat: no-repeat;
-    background-position: 200px 170px;
+  @media only screen and (width: 320px) {
+    .icons-containers {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      justify-items: center;
+      position: relative;
+      right: 50px;
+      bottom: 60px;
+    }
+    .main_container {
+      width: 100%;
+      height: 100%;
+      background-color: #1c1a19;
+      background-image: url('./images/Illustration.png');
+      background-repeat: no-repeat;
+      background-position: 200px 170px;
+    }
   }
 }
