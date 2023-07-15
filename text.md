@@ -1,1 +1,0 @@
-It is a project in which i am going to develop skills about portfolio using linters 

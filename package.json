@@ -1,29 +1,27 @@
 {
-  "name": "Portfolio",
+  "name": "figma-1-portfolio",
   "version": "1.0.0",
-  "description": "<a name=\"readme-top\"></a>",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "Hint": "npx hint .",
-    "fix": "npx stylelint \"**/*.css\" --fix"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malodev1234/Portfolio.git"
+    "url": "git+https://github.com/Rifat8080/figma-1-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/malodev1234/Portfolio/issues"
+    "url": "https://github.com/Rifat8080/figma-1-portfolio/issues"
   },
-  "homepage": "https://github.com/malodev1234/Portfolio#readme",
+  "homepage": "https://github.com/Rifat8080/figma-1-portfolio#readme",
   "devDependencies": {
-    "hint": "^7.1.5",
+    "hint": "^7.1.8",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  },
-  "dependencies": {}
+  }
 }
