@@ -484,6 +484,7 @@ textarea {
   right: 113px;
   bottom: 60px;
 }
+
 .flex_container textarea {
   font-style: italic;
 }
@@ -539,11 +540,13 @@ hr {
     right: 90px;
     bottom: 60px;
   }
+
   .main_container {
     background-image: url('./images/Illustration.png');
     background-repeat: no-repeat;
-    background-position: 200px 170px 
+    background-position: 200px 170px;
   }
+
   .about_container {
     background-position: 450px 300px;
     position: relative;
@@ -564,6 +567,7 @@ hr {
     right: 50px;
     bottom: 60px;
   }
+
   .main_container {
     width: 100%;
     height: 100%;
