@@ -188,10 +188,7 @@ If you like this project please you can read more about linters
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank my patners who help me during this project
+I would like to thank my patner Ali Rachid who help me to build this project who help me during this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
