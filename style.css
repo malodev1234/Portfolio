@@ -308,12 +308,17 @@ ul {
 }
 
 .fotter-contact-form-container {
-  height: 160vh;
+  height: 90vh;
   border-radius: 100px 0 0;
   margin-top: 88px;
   background-color: #6070ff;
   overflow: hidden;
   display: flex;
+}
+
+.ima {
+  position: relative;
+  bottom: 45px;
 }
 
 .fotter-contact-form-imag {
