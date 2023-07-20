@@ -395,7 +395,7 @@ ul {
   color: #b3bac5;
 }
 
-.fotter-contact-form-text .btn-footer-container:default{
+.fotter-contact-form-text .btn-footer-container:default {
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
@@ -410,11 +410,13 @@ ul {
   background-color: #2f3675;
   color: #fff;
 }
+
 .fotter-contact-form-text .btn-footer-container:enabled {
   cursor: pointer;
   background-color: #2f3675;
   color: #fff;
 }
+
 .fotter-contact-form-text .btn-footer-container:disabled {
   cursor: pointer;
   background-color: #7a7d96;
@@ -428,4 +430,3 @@ ul {
   background-color: #8487a1;
   color: #fff;
 }
-
